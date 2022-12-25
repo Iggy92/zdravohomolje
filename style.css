@@ -1,0 +1,159 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main-header {
+	background-color: orange;
+	height: 140px;
+	color: #fff;
+    
+     }
+
+.main-header .main-menu {
+     list-style: none;
+     margin-top: 55px;
+    float: none;
+
+ }     
+
+ .main-header .main-menu li {
+     display: inline-block;
+     margin-left: 20px;
+     object-position: center;
+     
+    
+
+ }
+
+ .main-header .main-menu li a {
+        color: orange;
+        text-transform: uppercase;
+        text-decoration: none;
+        display:inline-block;
+     
+
+}
+
+.main-header .main-menu .button a {
+    background-color: black;
+     padding: 10px ;
+     color:orange;
+     border: 3px solid black;
+     transition:0.6s;
+     border-radius: 8px;
+position: sticky; 
+
+}
+.main-header .main-menu .button a:hover {
+     color: black;
+     background-color: transparent;
+
+
+}
+
+
+
+.main-header img {
+border: 2px solid black;
+background-color: white;
+margin-top: 3px;
+border-radius: 12px;
+
+}
+
+.hero-section {
+
+    height: 1200px;
+background-image: url('slike/bee.png');
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+
+  
+border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+    
+
+.footer {
+    background-color: orange;
+	height: 100px;
+	color: #fff;
+   margin: 0;
+    padding: 0;
+}
+
+.fa {
+    color: black;
+    margin-left: 65px;
+    margin-top: 25px;
+    
+}
+
+.pp{margin-left: 20px;
+}
+
+.fab {
+    margin-left: 200px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    width: 75%;
+height: 75%;
+border: 4px solid black;
+margin-left:12.5%;
+    margin-top:120px;
+padding: 0;
+    background-color: orange;
+    }
+
+.cen{
+margin-left: 40px; 
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+.mai {
+    text-decoration: none;
+    color: black;
+}
+.mia{
+    text-decoration: inherit
+    
+}
+.mau {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.kiu {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right:20px;
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+}
+.iti {
+    text-decoration: none;
+    color: black;
+    
+}
+@media screen and (min-width:700px) {
+ .main-header .main-menu li{
+display:inline-block;
+justify-content:top;
+     margin: 0px;
+     padding: 0;
+     
+}
+}
